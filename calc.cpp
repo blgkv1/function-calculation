@@ -36,13 +36,27 @@ void input_data(double& a, double& b, int& n, double& step) {
         cout << "Enter start a: ";
         cin >> a;
 
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(10000, '\n');
+            cout << "Error: a must be numeric. Try again." << endl;
+        } else {
+            break;
+        }
+    }
+
+    while (true) {
         cout << "Enter end b: ";
         cin >> b;
 
-        if (cin.fail() || a > b) {
+        if (cin.fail() || b <= a) {
             cin.clear();
             cin.ignore(10000, '\n');
-            cout << "Error: a must be less than b and input must be numeric. Try again." << endl;
+            if (cin.fail()) {
+                cout << "Error: b must be numeric. Try again." << endl;
+            } else {
+                cout << "Error: b must be greater than a. Try again." << endl;
+            }
         } else {
             break;
         }
