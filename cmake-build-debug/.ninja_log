@@ -1,0 +1,18 @@
+# ninja log v6
+167	925	7549801875330573	CMakeFiles/unit_tests.dir/calc.cpp.obj	f09a6960900671bb
+9963	10098	7549801973291918	lib/libgtest_main.a	327765491751acf4
+46	1548	7549801874125088	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	9ad621ca3302e6d5
+91	1726	7549801874577091	CMakeFiles/unit_tests.dir/test.cpp.obj	1345a01b7c647b62
+7004	9963	7549801943712845	lib/libgtest.a	3893f60eda70b540
+3	7002	7549801873693560	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	f0dfc1337368fcef
+3	668	7549807948501272	CMakeFiles/funccalc.dir/main.cpp.obj	435327db5c596217
+29	673	7549807948761334	CMakeFiles/funccalc.dir/calc.cpp.obj	b22504caeeaa06cc
+674	963	7549807955202792	funccalc.exe	b3d5ff021b97546b
+4	561	7549808058894805	CMakeFiles/unit_tests.dir/calc.cpp.obj	f09a6960900671bb
+562	3919	7549808064457637	unit_tests.exe	488805fc36b3b219
+6	1521	7549809903366378	CMakeFiles/unit_tests.dir/test.cpp.obj	1345a01b7c647b62
+1521	4895	7549809918517180	unit_tests.exe	488805fc36b3b219
+5	1412	7549812280819423	CMakeFiles/unit_tests.dir/test.cpp.obj	1345a01b7c647b62
+1413	4776	7549812294888319	unit_tests.exe	488805fc36b3b219
+5	1408	7549812481597441	CMakeFiles/unit_tests.dir/test.cpp.obj	1345a01b7c647b62
+1409	4757	7549812495632420	unit_tests.exe	488805fc36b3b219
