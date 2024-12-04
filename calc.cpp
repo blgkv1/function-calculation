@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include "calc.h"
 using namespace std;
 
@@ -48,14 +49,16 @@ void input_data(double& a, double& b, int& n, double& step) {
     }
 
     while (true) {
+        double temp_n;
         cout << "Enter integer n (n>3): ";
-        cin >> n;
+        cin >> temp_n;
 
-        if (cin.fail() || n <= 3) {
+        if (cin.fail() || temp_n <= 3 || temp_n != static_cast<int>(temp_n)) {
             cin.clear();
             cin.ignore(10000, '\n');
             cout << "Error: n must be a positive integer bigger than 3. Try again." << endl;
         } else {
+            n = static_cast<int>(temp_n);
             break;
         }
     }
@@ -73,5 +76,3 @@ void input_data(double& a, double& b, int& n, double& step) {
         }
     }
 }
-
-

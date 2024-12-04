@@ -3,11 +3,11 @@
 
 // Test for calculate_case1
 TEST(CalculateCase1, PositiveInputs) {
-    EXPECT_DOUBLE_EQ(calculate_case1(2.0, 5), 60.0);  // Replace with correct expected value
+    EXPECT_DOUBLE_EQ(calculate_case1(2.0, 5), 60.0);
 }
 
 TEST(CalculateCase1, NegativeInputs) {
-    EXPECT_DOUBLE_EQ(calculate_case1(-1.0, 5), 0.0); // Replace with correct expected value
+    EXPECT_DOUBLE_EQ(calculate_case1(-1.0, 5), 0.0);
 }
 
 // Test for calculate_case2
