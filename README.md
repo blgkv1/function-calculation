@@ -1,5 +1,5 @@
 # Simple calculator
-Simple calculator for specified function on C++<br>
+Simple calculator for specified function on C++ with google tests<br>
 Project for university
 
 
